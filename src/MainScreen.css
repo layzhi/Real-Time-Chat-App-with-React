@@ -1,0 +1,111 @@
+body {
+    font-family: "Nunito";
+}
+
+html,
+body {
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/2113558/pexels-photo-2113558.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Numans", sans-serif;
+}
+div#root {
+    height: 100%; /* remove this line to see div.app is no more 100% height */
+}
+
+div.app {
+    height: 100%;
+}
+
+#main-chat-window {
+    max-width: 450px;
+    width: 50%;
+    margin: auto;
+    border-radius: 12px;
+    opacity: 0.8;
+}
+.btn-danger {
+    border-radius: 12px;
+}
+
+#main-chat-window:hover {
+    opacity: 0.9;
+}
+
+.message.from-me .username {
+    display: none;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+.message.from-me {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1px;
+}
+
+.message.from-me .message-body {
+    background-color: green;
+    color: white;
+    opacity: 0.8;
+}
+
+.message {
+    margin-top: 10px;
+}
+#message {
+    margin-top: 0.1rem;
+    border-radius: 12px;
+}
+.message-body {
+    max-width: 50%;
+    display: inline-block;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px;
+    border-radius: 15px;
+    padding-right: 50px;
+}
+
+.p-top {
+    padding-top: 0.1rem;
+}
+
+#message-section {
+    height: 400px;
+    overflow: auto;
+    background: #f9f9f9;
+    border-radius: 12px;
+}
+
+#output p {
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#feedback p {
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+input {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: Nunito;
+    font-size: 16px;
+}
