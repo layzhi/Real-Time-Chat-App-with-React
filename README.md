@@ -1,6 +1,6 @@
 ## Real-Time Chat Application
 
-A real-time chat application which allows users to send each other instant messages! Built with React! :muscle:
+A real-time chat application which allows users to send instant messages to each other! Built with React! :muscle:
 
 ## User Stories
 
