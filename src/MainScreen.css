@@ -38,16 +38,17 @@ div.app {
 }
 
 .username {
-    font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: #999;
-    margin-bottom: 5px;
+    display: flex;
+    padding-left: 10px;
 }
 
 .message.from-me {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 1px;
+    font-size: 0.85rem;
 }
 
 .message.from-me .message-body {
@@ -58,19 +59,19 @@ div.app {
 
 .message {
     margin-top: 10px;
+    font-size: 0.95rem;
 }
-#message {
-    margin-top: 0.1rem;
-    border-radius: 12px;
-}
+
 .message-body {
-    max-width: 50%;
-    display: inline-block;
-    padding: 10px;
+    max-width: 40%;
+    display: flex;
+    padding: 5px;
     background-color: #eee;
     border: 1px;
-    border-radius: 15px;
-    padding-right: 50px;
+    border-radius: 7px;
+    padding-right: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .p-top {
@@ -81,6 +82,11 @@ div.app {
     height: 400px;
     overflow: auto;
     background: #f9f9f9;
+    border-radius: 12px;
+}
+
+#message {
+    margin-top: 0.1rem;
     border-radius: 12px;
 }
 

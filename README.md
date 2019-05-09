@@ -1,3 +1,33 @@
+## Real-Time Chat Application
+
+A real-time chat application which allows users to send each other instant messages! Built with React! :muscle:
+
+## User Stories
+
+-   [x] User is prompted to enter a username when he visits the chat app.
+-   [x] User can see an input field where he/she can type a new message.
+-   [x] By pressing the `enter key` or by clicking on the `send button` the text will be displayed in the chat-box alongside his/her username.
+-   [x] The messages is visible to all the Users that are in the chat app
+
+## TODO
+
+-   [ ] Store the users and messages in a database.
+-   [ ] User can select and send an emoji.
+
+## How Does It Look?
+
+![Chat-app](img/chat-app.gif)
+
+### Enhanced :fire:
+
+<p align="center">
+<img src="img/LoginScreen.png">
+</p>
+
+<p align="center">
+<img src="img/MainScreen.png">
+</p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -70,65 +70,7 @@ class App extends Component {
                     </div>
                 </div>
             </div>
-            /* 
-            <div>
-                <div className="container-fluid h-100">
-                      <div className="row text-center h-100">
-                        <div className="col col-md-12 align-self-center">
-                        <div className="card">
-                            <div className="card-header">
-                                <h3>Log In</h3>
-                            </div>
-                            <div className="card-body">
-                                <form onSubmit={this.handleSubmit}>
-                                    <div className="input-group form-group">
-                                        <div className="input-group-prepend" />
-                                        <input
-                                            type="text"
-                                            className="form-control"
-                                            placeholder="username"
-                                            onChange={e => this.handleChange(e)}
-                                            required
-                                        />
-                                    </div>
-
-                                    <div className="form-group">
-                                        <input
-                                            type="submit"
-                                            value="Login"
-                                            className="btn float-right btn-danger login_btn"
-                                        />
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */
         );
     }
 }
-
 export default App;
-
-/* 
-<BrowserRouter>
-                <div>
-                    <Route
-                        exact
-                        path="/"
-                        render={props => (
-                            <Login handleUserName={this.handleUserName} />
-                        )}
-                    />
-                    <Route
-                        exact
-                        component={MainScreen}
-                        path="/mainScreen"
-                        render={props => (
-                            <MainScreen userName={this.state.userName} />
-                        )}
-                    />
-                </div>
-            </BrowserRouter>
-*/
