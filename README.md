@@ -16,7 +16,10 @@ A real-time chat application which allows users to send each other instant messa
 
 ## How Does It Look?
 
-![Chat-app](img/chat-app.gif)
+<p align="center">
+<img src="img/chat-app.gif">
+</p>
+
 
 ### Enhanced :fire:
 
@@ -96,3 +99,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+App idea from [this repository](https://github.com/florinpop17/app-ideas)
